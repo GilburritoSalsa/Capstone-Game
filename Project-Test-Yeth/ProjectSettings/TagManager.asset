@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< Updated upstream:Project-Test-Yeth/ProjectSettings/TagManager.asset
   tags: []
+=======
+  tags:
+  - Keep
+  - Enemy
+  - Spawner
+  - Tower
+  - Damaging
+  - Controller
+>>>>>>> Stashed changes:Capstone Game/ProjectSettings/TagManager.asset
   layers:
   - Default
   - TransparentFX

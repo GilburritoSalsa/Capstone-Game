@@ -28,6 +28,8 @@ public class gameManager : MonoBehaviour
     public int gold;
 
 
+
+
     // Pausing and check if wave is running
     bool pause;
     bool isWaveInProgress;

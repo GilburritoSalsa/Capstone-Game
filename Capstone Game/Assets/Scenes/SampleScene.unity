@@ -320,8 +320,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 4966594433548007995, guid: f4c3d3654d19a0c4c8d4553806a29716, type: 3}
-  spawners: []
-  spawner: {fileID: 0}
+  spawners:
+  - {fileID: 273454820}
+  - {fileID: 1666383617}
+  - {fileID: 820325488}
+  - {fileID: 755524741}
+  spawner: {fileID: 273454820}
 --- !u!114 &644724271
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -97,8 +97,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0
-  projectile: {fileID: 0}
-  fireRate: 0
+  projectile: {fileID: 840644944934882648, guid: 7bdf458cd1ee44f46a966e953c2a63fd, type: 3}
+  attackRate: 0
+  attackTimer: 0
   range: 4
 --- !u!58 &452840378799555145
 CircleCollider2D:
@@ -110,7 +111,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

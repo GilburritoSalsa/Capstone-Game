@@ -42,15 +42,16 @@ public class DefenseBehavior : MonoBehaviour
         }
     }
 
-    public void OnTriggerEnter(Collider col)
+    public void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Enemy")
         {
+            Debug.Log("Enemy Entered Range");
             target = col.gameObject;
             hasTarget = true;
         }
     }
-    public void OnTriggerExit(Collider col)
+    public void OnTriggerExit2D(Collider2D col)
     {
         if (col.gameObject.tag == "Enemy")
         {

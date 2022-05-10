@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4966594433548007993}
   - component: {fileID: 4966594433548007991}
   - component: {fileID: 4258763593141685196}
+  - component: {fileID: 5470729814474431740}
   m_Layer: 0
   m_Name: BasicEnemy
   m_TagString: Enemy
@@ -125,9 +126,29 @@ MonoBehaviour:
   name: Basic
   target: {fileID: 0}
   baseHp: 1
-  moveSpeed: 1
+  moveSpeed: 2
   targetPos: {x: 0, y: 0, z: 0}
   targetTransform: {fileID: 0}
-  transform: {fileID: 0}
   manager: {fileID: 0}
   goldDrop: 1
+--- !u!50 &5470729814474431740
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4966594433548007995}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

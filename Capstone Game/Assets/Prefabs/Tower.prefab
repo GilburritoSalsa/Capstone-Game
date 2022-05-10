@@ -98,7 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 0
   projectile: {fileID: 840644944934882648, guid: 7bdf458cd1ee44f46a966e953c2a63fd, type: 3}
-  attackRate: 0
+  attackRate: 1
   attackTimer: 0
   range: 4
 --- !u!58 &452840378799555145

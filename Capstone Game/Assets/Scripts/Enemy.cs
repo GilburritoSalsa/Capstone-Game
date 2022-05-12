@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
     public GameObject manager;
     public int goldDrop;
     ShopScript shop;
+    spawnerBehavior spBehave;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class Enemy : MonoBehaviour
         curHp = baseHp;
         manager = GameObject.FindWithTag("Controller");
         shop = manager.GetComponent<ShopScript>();
+        spBehave = manager.GetComponent<spawnerBehavior>();
         setTarget();
     }
 
@@ -43,9 +45,10 @@ public class Enemy : MonoBehaviour
 
     public void Die()
     {
-        Debug.Log("Enemy died.");
-        shop.somethingDied(goldDrop);
         Destroy(gameObject);
+        spBehave.enemyDies();
+        //Debug.Log("Enemy died.");
+        //shop.somethingDied(goldDrop);
     }
 
     public void setTarget() 
@@ -60,7 +63,7 @@ public class Enemy : MonoBehaviour
         {
             Projectile proj = collision.gameObject.GetComponent<Projectile>();
             curHp -= proj.getDamage();
-            Debug.Log("Ouch, that hurt!");
+            Destroy(collision.gameObject);
         }
         else
         {

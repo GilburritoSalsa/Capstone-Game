@@ -5,7 +5,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public GameObject target;
-    Vector3 targetPos;
+    public Vector3 targetPos;
     bool hasTarget;
     public float speed;
     public int damage;
@@ -13,14 +13,6 @@ public class Projectile : MonoBehaviour
 
     // If the object's life exceeds its life timer, it will be destroyed.
     float lifeTimer;
-
-
-    /*public Projectile(Vector3 tPosition)
-    {
-        targetPos = tPosition;
-    }*/
-
-
 
     // Start is called before the first frame update
     void Start()
@@ -34,17 +26,22 @@ public class Projectile : MonoBehaviour
     void Update()
     {
         lifeTimer += Time.deltaTime;
-        if (lifeTimer > 4) { Destroy(gameObject); }
-        //if (hasTarget)
-            transform.position = Vector3.MoveTowards(transform.position, target.transform.position/*targetPos*/, speed * Time.deltaTime);
+        if (lifeTimer > 4) 
+        { 
+            Destroy(gameObject);
+            Debug.Log("Projectile Died of old age."); 
+        }
+        
+        transform.position = Vector3.MoveTowards(transform.position, /*target.transform.position*/ targetPos, speed * Time.deltaTime);
     }
 
     public void setTarget(GameObject t)
     {
-        targetPos = t.transform.position;
+        //targetPos = t.transform.position;
         target = t;
-        hasTarget = true;
-        Debug.Log("Target Set");
+        targetPos = target.transform.position;
+        //hasTarget = true;
+        //Debug.Log("Target Set");
     }
 
     public void setSpeed(float s)
@@ -63,8 +60,7 @@ public class Projectile : MonoBehaviour
     {
         if (col.gameObject.tag == "Enemy")
         {
-            Debug.Log("Hit and Enemy");
-            Destroy(gameObject);
+            Debug.Log("Hit an Enemy");
         }
     }
 }

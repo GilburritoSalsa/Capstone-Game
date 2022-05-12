@@ -35,7 +35,6 @@ public class spawnerBehavior : MonoBehaviour
         {
             spawnTimer = 0;
             spawn();
-            enemiesAlive++;
         }
     }
 
@@ -88,8 +87,9 @@ public class spawnerBehavior : MonoBehaviour
         // Update remaining spawns
         spawnsRemaining -= 1;
         enemiesAlive += 1;
+        Debug.Log("After spawn, " + enemiesAlive + " currently alive.");
     }
 
     public bool isEverythingDead() { if (spawnsRemaining == 0 && enemiesAlive == 0) return true; else return false; }
-    public void enemyDies() { enemiesAlive -= 1; }
+    public void enemyDies() { enemiesAlive = enemiesAlive - 1; Debug.Log(enemiesAlive + " Enemies currently alive"); }
 }

@@ -66,6 +66,7 @@ public class gameManager : MonoBehaviour
     // Do stuff at end of the wave
     void EndWave()
     {
+        Debug.Log("Round " + " Over.");
         spawnBehav.onRoundEnd(wave);
         isWaveInProgress = false;
         if (wave < maxWave) wave++;
@@ -76,5 +77,10 @@ public class gameManager : MonoBehaviour
     float getDifMod()
     {
         return curDifMod;
+    }
+
+    public void lose()
+    {
+
     }
 }

@@ -507,6 +507,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6076113162567420653, guid: beba42e17f2025749a794b76e39664fd, type: 3}
+      propertyPath: range
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6076113162567420653, guid: beba42e17f2025749a794b76e39664fd, type: 3}
+      propertyPath: attackRate
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: beba42e17f2025749a794b76e39664fd, type: 3}
 --- !u!1 &1666383617
@@ -601,6 +609,10 @@ PrefabInstance:
     - target: {fileID: 1515748485332905161, guid: 302e928f75e297640a27e3f0ec8c22ce, type: 3}
       propertyPath: m_Name
       value: Keep
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515748485332905165, guid: 302e928f75e297640a27e3f0ec8c22ce, type: 3}
+      propertyPath: m_Mass
+      value: 1000000
       objectReference: {fileID: 0}
     - target: {fileID: 1515748485332905167, guid: 302e928f75e297640a27e3f0ec8c22ce, type: 3}
       propertyPath: m_RootOrder
@@ -702,6 +714,10 @@ PrefabInstance:
     - target: {fileID: 4605301177667897524, guid: 82e0111391a052e4d872e936735488b8, type: 3}
       propertyPath: m_Name
       value: GameController
+      objectReference: {fileID: 0}
+    - target: {fileID: 4605301177667897526, guid: 82e0111391a052e4d872e936735488b8, type: 3}
+      propertyPath: maxWave
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82e0111391a052e4d872e936735488b8, type: 3}

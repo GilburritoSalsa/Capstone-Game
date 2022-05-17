@@ -1341,6 +1341,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4605301177667897512, guid: 82e0111391a052e4d872e936735488b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82e0111391a052e4d872e936735488b8, type: 3}
 --- !u!1 &401153753
@@ -1712,25 +1716,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &472841420 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4541180151705818113, guid: 82e0111391a052e4d872e936735488b8, type: 3}
-  m_PrefabInstance: {fileID: 369741827}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &472841425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472841420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d9bb01eb131acd47ba56e615e1b7e78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  arrorTowerPrefab: {fileID: 0}
-  boltTowerPrefab: {fileID: 0}
 --- !u!1 &531152476
 GameObject:
   m_ObjectHideFlags: 0

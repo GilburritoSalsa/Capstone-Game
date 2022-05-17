@@ -122,11 +122,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5804fc2198799a5468558250e3cbfdc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   target: {fileID: 2304962628173384486, guid: d55bbb92f22512b42bbf692a5a3c02e1, type: 3}
-  baseHp: 1
+  baseHp: 100
+  curHp: 100
   moveSpeed: 1
   targetPos: {x: 0, y: 0, z: 0}
   targetTransform: {fileID: 0}
-  manager: {fileID: 0}
-  goldDrop: 0
+  transform: {fileID: 0}

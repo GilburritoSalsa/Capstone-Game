@@ -4,22 +4,24 @@ using UnityEngine;
 
 public class Shop : MonoBehaviour
 {
-    BuildManager buildManager;
+    /*
+    GameObject buildManage;
 
     void start()
     {
-        buildManager = buildManager.instance;
+        buildManage = buildManage.instance;
     }
 
    public void PurchaseArrowTower()
     {
         Debug.Log("Arrow Tower Purchased");
-        buildManager.SetTurretToBuild(buildManager.arrowTowerPrefab);
+        buildManage.SetTurretToBuild(buildManage.arrowTowerPrefab);
     }
 
     public void PurchaseBoltTower()
     {
         Debug.Log("Bolt Tower Purchased");
-        buildManager.SetTurretToBuild(buildManager.boltTowerPrefab);
+        buildManage.SetTurretToBuild(buildManage.boltTowerPrefab);
     }
+    */
 }

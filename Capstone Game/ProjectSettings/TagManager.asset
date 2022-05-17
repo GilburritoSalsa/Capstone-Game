@@ -7,6 +7,7 @@ TagManager:
   - Keep
   - Enemy
   - Spawner
+  - Node
   layers:
   - Default
   - TransparentFX

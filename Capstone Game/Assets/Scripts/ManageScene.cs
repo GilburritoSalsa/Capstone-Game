@@ -19,6 +19,16 @@ public class ManageScene : MonoBehaviour
 
     public void LoadGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Centralized");
+    }
+
+    public void LoadCredits()
+    {
+        SceneManager.LoadScene("CreditsScene");
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }

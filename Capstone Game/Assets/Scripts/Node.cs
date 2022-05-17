@@ -7,7 +7,7 @@ public class Node : MonoBehaviour
 
     public Color hoverColor;
 
-    private GameObject turret;
+    public GameObject turret;
 
     private SpriteRenderer rend;
     private Color startColor;
@@ -19,10 +19,7 @@ public class Node : MonoBehaviour
         startColor = rend.color;
     }
 
-    void OnMouseEnter()
-    {
-        rend.color = hoverColor;
-    }
+    
 
     void OnMouseDown()
     {
@@ -35,6 +32,10 @@ public class Node : MonoBehaviour
         GameObject turretToBuild = BuildManager.instance.GetTurretToBuild();
         turret = (GameObject)Instantiate(turretToBuild, transform.position, transform.rotation);
     
+    }
+    void OnMouseEnter()
+    {
+        rend.color = hoverColor;
     }
 
     void OnMouseExit()

@@ -9,7 +9,7 @@ public class BuildManager : MonoBehaviour
 
 
     //This is to handle the singleton case!
-    void awake()
+    void Awake()
     {
         if(instance != null)
         {
@@ -19,8 +19,16 @@ public class BuildManager : MonoBehaviour
         instance = this;
     }
 
-    public GameObject arrorTowerPrefab;
+    public GameObject arrowTowerPrefab;
     public GameObject boltTowerPrefab;
+
+
+    void Start()
+    {
+        turretToBuild = arrowTowerPrefab;
+    }
+
+
 
     private GameObject turretToBuild;
 
@@ -29,8 +37,13 @@ public class BuildManager : MonoBehaviour
         return turretToBuild;
     }
 
-    public void SetTurretToBuild(GameObject turret)
+    public void SetTurretToBuildArrow(GameObject turret)
     {
-        turretToBuild = turret;
+        turretToBuild = arrowTowerPrefab;
+    }
+
+    public void SetTurretToBuildBolt(GameObject turret)
+    {
+        turretToBuild = boltTowerPrefab;
     }
 }

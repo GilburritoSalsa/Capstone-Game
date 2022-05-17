@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class gameManager : MonoBehaviour
 {
@@ -27,7 +28,9 @@ public class gameManager : MonoBehaviour
     // Economy tracking
     public int gold;
 
+    //SceneManager
 
+    public SceneManager thing;
 
 
     // Pausing and check if wave is running
@@ -74,7 +77,10 @@ public class gameManager : MonoBehaviour
 
     }
 
-
+    public void lose()
+    {
+        SceneManager.LoadScene("Lost");
+    }
 
 
     float getDifMod()

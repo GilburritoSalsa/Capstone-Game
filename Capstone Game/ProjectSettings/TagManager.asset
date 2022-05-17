@@ -9,6 +9,7 @@ TagManager:
   - Spawner
   - Node
   - Damaging
+  - Controller
   layers:
   - Default
   - TransparentFX

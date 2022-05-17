@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4966594433548007992}
   - component: {fileID: 4966594433548007993}
-  - component: {fileID: 4966594433548007994}
   - component: {fileID: 4966594433548007991}
+  - component: {fileID: 4354834054908240992}
   m_Layer: 0
   m_Name: BasicEnemy
   m_TagString: Enemy
@@ -84,25 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4966594433548007994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4966594433548007995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fa403ac137196a4fa7d0c8e60717e0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  baseHp: 0
-  curHp: 0
-  moveSpeed: 0
-  targetPos: {x: 0, y: 0, z: 0}
-  targetTransform: {fileID: 0}
-  transform: {fileID: 0}
 --- !u!61 &4966594433548007991
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -129,3 +110,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &4354834054908240992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4966594433548007995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5804fc2198799a5468558250e3cbfdc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  target: {fileID: 2304962628173384486, guid: d55bbb92f22512b42bbf692a5a3c02e1, type: 3}
+  baseHp: 1
+  moveSpeed: 1
+  targetPos: {x: 0, y: 0, z: 0}
+  targetTransform: {fileID: 0}
+  manager: {fileID: 0}
+  goldDrop: 0

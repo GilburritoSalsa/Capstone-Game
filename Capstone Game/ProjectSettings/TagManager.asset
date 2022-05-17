@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Spawner
   - Node
+  - Damaging
   layers:
   - Default
   - TransparentFX

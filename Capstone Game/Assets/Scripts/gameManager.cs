@@ -75,6 +75,8 @@ public class gameManager : MonoBehaviour
     }
 
 
+
+
     float getDifMod()
     {
         return curDifMod;

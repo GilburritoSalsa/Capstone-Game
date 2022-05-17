@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 48318366}
   - component: {fileID: 48318367}
-  - component: {fileID: 48318368}
   - component: {fileID: 48318369}
   m_Layer: 0
   m_Name: Square (33)
@@ -207,19 +206,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &48318368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 48318365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &48318369
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -256,7 +242,6 @@ GameObject:
   m_Component:
   - component: {fileID: 96812738}
   - component: {fileID: 96812739}
-  - component: {fileID: 96812740}
   - component: {fileID: 96812741}
   m_Layer: 0
   m_Name: Square (37)
@@ -330,19 +315,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &96812740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 96812737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &96812741
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -379,7 +351,6 @@ GameObject:
   m_Component:
   - component: {fileID: 120973430}
   - component: {fileID: 120973431}
-  - component: {fileID: 120973432}
   - component: {fileID: 120973433}
   m_Layer: 0
   m_Name: Square (8)
@@ -453,19 +424,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &120973432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120973429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &120973433
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -502,7 +460,6 @@ GameObject:
   m_Component:
   - component: {fileID: 131216360}
   - component: {fileID: 131216363}
-  - component: {fileID: 131216362}
   - component: {fileID: 131216361}
   m_Layer: 0
   m_Name: Square (59)
@@ -551,19 +508,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &131216362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 131216359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &131216363
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -709,7 +653,6 @@ GameObject:
   m_Component:
   - component: {fileID: 231711868}
   - component: {fileID: 231711869}
-  - component: {fileID: 231711870}
   - component: {fileID: 231711871}
   m_Layer: 0
   m_Name: Square (23)
@@ -783,19 +726,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &231711870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231711867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &231711871
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -832,7 +762,6 @@ GameObject:
   m_Component:
   - component: {fileID: 248484721}
   - component: {fileID: 248484724}
-  - component: {fileID: 248484723}
   - component: {fileID: 248484722}
   m_Layer: 0
   m_Name: Square (67)
@@ -881,19 +810,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &248484723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 248484720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &248484724
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -955,7 +871,6 @@ GameObject:
   m_Component:
   - component: {fileID: 250849970}
   - component: {fileID: 250849971}
-  - component: {fileID: 250849972}
   - component: {fileID: 250849973}
   m_Layer: 0
   m_Name: Square (2)
@@ -1029,19 +944,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &250849972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 250849969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &250849973
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1157,7 +1059,6 @@ GameObject:
   m_Component:
   - component: {fileID: 309670773}
   - component: {fileID: 309670774}
-  - component: {fileID: 309670775}
   - component: {fileID: 309670776}
   m_Layer: 0
   m_Name: Square (47)
@@ -1231,19 +1132,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &309670775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309670772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &309670776
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1282,6 +1170,10 @@ PrefabInstance:
       value: GameController
       objectReference: {fileID: 0}
     - target: {fileID: 4541180151705818114, guid: 82e0111391a052e4d872e936735488b8, type: 3}
+      propertyPath: spawner
+      value: 
+      objectReference: {fileID: 3394142532288173033, guid: a4a69a4f0bfef884785fa764df9b9855, type: 3}
+    - target: {fileID: 4541180151705818114, guid: 82e0111391a052e4d872e936735488b8, type: 3}
       propertyPath: spawners.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -1297,6 +1189,22 @@ PrefabInstance:
       propertyPath: spawners.Array.data[2]
       value: 
       objectReference: {fileID: 1508076139}
+    - target: {fileID: 4541180151705818115, guid: 82e0111391a052e4d872e936735488b8, type: 3}
+      propertyPath: wave
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541180151705818115, guid: 82e0111391a052e4d872e936735488b8, type: 3}
+      propertyPath: spawner
+      value: 
+      objectReference: {fileID: 3394142532288173033, guid: a4a69a4f0bfef884785fa764df9b9855, type: 3}
+    - target: {fileID: 4541180151705818115, guid: 82e0111391a052e4d872e936735488b8, type: 3}
+      propertyPath: waveTimer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541180151705818115, guid: 82e0111391a052e4d872e936735488b8, type: 3}
+      propertyPath: buildDelay
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4541180151705818141, guid: 82e0111391a052e4d872e936735488b8, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1347,6 +1255,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82e0111391a052e4d872e936735488b8, type: 3}
+--- !u!1 &369741828 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4541180151705818113, guid: 82e0111391a052e4d872e936735488b8, type: 3}
+  m_PrefabInstance: {fileID: 369741827}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &401153753
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,7 +1270,6 @@ GameObject:
   m_Component:
   - component: {fileID: 401153754}
   - component: {fileID: 401153755}
-  - component: {fileID: 401153756}
   - component: {fileID: 401153757}
   m_Layer: 0
   m_Name: Square (36)
@@ -1431,19 +1343,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &401153756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 401153753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &401153757
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1480,7 +1379,6 @@ GameObject:
   m_Component:
   - component: {fileID: 410139780}
   - component: {fileID: 410139781}
-  - component: {fileID: 410139782}
   - component: {fileID: 410139783}
   m_Layer: 0
   m_Name: Square (44)
@@ -1554,19 +1452,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &410139782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410139779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &410139783
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1603,7 +1488,6 @@ GameObject:
   m_Component:
   - component: {fileID: 469433562}
   - component: {fileID: 469433563}
-  - component: {fileID: 469433564}
   - component: {fileID: 469433565}
   m_Layer: 0
   m_Name: Square (18)
@@ -1677,19 +1561,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &469433564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 469433561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &469433565
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1726,7 +1597,6 @@ GameObject:
   m_Component:
   - component: {fileID: 531152477}
   - component: {fileID: 531152478}
-  - component: {fileID: 531152479}
   - component: {fileID: 531152480}
   m_Layer: 0
   m_Name: Square (39)
@@ -1800,19 +1670,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &531152479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 531152476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &531152480
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1849,7 +1706,6 @@ GameObject:
   m_Component:
   - component: {fileID: 621612773}
   - component: {fileID: 621612774}
-  - component: {fileID: 621612775}
   - component: {fileID: 621612776}
   m_Layer: 0
   m_Name: Square (9)
@@ -1923,19 +1779,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &621612775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 621612772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &621612776
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1972,7 +1815,6 @@ GameObject:
   m_Component:
   - component: {fileID: 649136397}
   - component: {fileID: 649136400}
-  - component: {fileID: 649136399}
   - component: {fileID: 649136398}
   m_Layer: 0
   m_Name: Square (56)
@@ -2021,19 +1863,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &649136399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 649136396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &649136400
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2161,7 +1990,6 @@ GameObject:
   m_Component:
   - component: {fileID: 696191540}
   - component: {fileID: 696191543}
-  - component: {fileID: 696191542}
   - component: {fileID: 696191541}
   m_Layer: 0
   m_Name: Square (51)
@@ -2210,19 +2038,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &696191542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 696191539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &696191543
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2284,7 +2099,6 @@ GameObject:
   m_Component:
   - component: {fileID: 726806193}
   - component: {fileID: 726806194}
-  - component: {fileID: 726806195}
   - component: {fileID: 726806196}
   m_Layer: 0
   m_Name: Square (45)
@@ -2358,19 +2172,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &726806195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 726806192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &726806196
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2407,7 +2208,6 @@ GameObject:
   m_Component:
   - component: {fileID: 778782099}
   - component: {fileID: 778782102}
-  - component: {fileID: 778782101}
   - component: {fileID: 778782100}
   m_Layer: 0
   m_Name: Square (62)
@@ -2456,19 +2256,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &778782101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778782098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &778782102
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2530,7 +2317,6 @@ GameObject:
   m_Component:
   - component: {fileID: 788164681}
   - component: {fileID: 788164682}
-  - component: {fileID: 788164683}
   - component: {fileID: 788164684}
   m_Layer: 0
   m_Name: Square (24)
@@ -2604,19 +2390,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &788164683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 788164680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &788164684
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2653,7 +2426,6 @@ GameObject:
   m_Component:
   - component: {fileID: 810327878}
   - component: {fileID: 810327881}
-  - component: {fileID: 810327880}
   - component: {fileID: 810327879}
   m_Layer: 0
   m_Name: Square (64)
@@ -2702,19 +2474,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &810327880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 810327877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &810327881
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2776,7 +2535,6 @@ GameObject:
   m_Component:
   - component: {fileID: 815619157}
   - component: {fileID: 815619158}
-  - component: {fileID: 815619159}
   - component: {fileID: 815619160}
   m_Layer: 0
   m_Name: Square (5)
@@ -2850,19 +2608,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &815619159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815619156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &815619160
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2899,7 +2644,6 @@ GameObject:
   m_Component:
   - component: {fileID: 845367681}
   - component: {fileID: 845367682}
-  - component: {fileID: 845367683}
   - component: {fileID: 845367684}
   m_Layer: 0
   m_Name: Square (7)
@@ -2973,19 +2717,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &845367683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845367680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &845367684
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3022,7 +2753,6 @@ GameObject:
   m_Component:
   - component: {fileID: 914668664}
   - component: {fileID: 914668665}
-  - component: {fileID: 914668666}
   - component: {fileID: 914668667}
   m_Layer: 0
   m_Name: Square (21)
@@ -3096,19 +2826,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &914668666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 914668663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &914668667
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3273,6 +2990,14 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 4794242136636880189, guid: d55bbb92f22512b42bbf692a5a3c02e1, type: 3}
+      propertyPath: maxHp
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794242136636880189, guid: d55bbb92f22512b42bbf692a5a3c02e1, type: 3}
+      propertyPath: manager
+      value: 
+      objectReference: {fileID: 369741828}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d55bbb92f22512b42bbf692a5a3c02e1, type: 3}
 --- !u!1001 &964854643
@@ -3351,7 +3076,6 @@ GameObject:
   m_Component:
   - component: {fileID: 978922953}
   - component: {fileID: 978922956}
-  - component: {fileID: 978922955}
   - component: {fileID: 978922954}
   m_Layer: 0
   m_Name: Square (60)
@@ -3400,19 +3124,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &978922955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978922952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &978922956
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3474,7 +3185,6 @@ GameObject:
   m_Component:
   - component: {fileID: 987962860}
   - component: {fileID: 987962863}
-  - component: {fileID: 987962862}
   - component: {fileID: 987962861}
   m_Layer: 0
   m_Name: Square (65)
@@ -3523,19 +3233,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &987962862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987962859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &987962863
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3597,7 +3294,6 @@ GameObject:
   m_Component:
   - component: {fileID: 989186409}
   - component: {fileID: 989186410}
-  - component: {fileID: 989186411}
   - component: {fileID: 989186412}
   m_Layer: 0
   m_Name: Square (43)
@@ -3671,19 +3367,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &989186411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 989186408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &989186412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3803,7 +3486,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1081499063}
   - component: {fileID: 1081499066}
-  - component: {fileID: 1081499065}
   - component: {fileID: 1081499064}
   m_Layer: 0
   m_Name: Square (55)
@@ -3852,19 +3534,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1081499065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1081499062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &1081499066
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4027,7 +3696,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1199895245}
   - component: {fileID: 1199895246}
-  - component: {fileID: 1199895247}
   - component: {fileID: 1199895248}
   m_Layer: 0
   m_Name: Square (6)
@@ -4101,19 +3769,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1199895247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1199895244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1199895248
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4304,7 +3959,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1229821393}
   - component: {fileID: 1229821394}
-  - component: {fileID: 1229821395}
   - component: {fileID: 1229821396}
   m_Layer: 0
   m_Name: Square (40)
@@ -4378,19 +4032,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1229821395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1229821392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1229821396
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4427,7 +4068,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1277196358}
   - component: {fileID: 1277196359}
-  - component: {fileID: 1277196360}
   - component: {fileID: 1277196361}
   m_Layer: 0
   m_Name: Square (16)
@@ -4501,19 +4141,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1277196360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1277196357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1277196361
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4550,7 +4177,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1296838828}
   - component: {fileID: 1296838829}
-  - component: {fileID: 1296838830}
   - component: {fileID: 1296838831}
   m_Layer: 0
   m_Name: Square (35)
@@ -4624,19 +4250,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1296838830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1296838827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1296838831
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4739,7 +4352,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1378633753}
   - component: {fileID: 1378633754}
-  - component: {fileID: 1378633755}
   - component: {fileID: 1378633756}
   m_Layer: 0
   m_Name: Square (53)
@@ -4813,19 +4425,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1378633755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1378633752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1378633756
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4934,7 +4533,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1422948787}
   - component: {fileID: 1422948788}
-  - component: {fileID: 1422948789}
   - component: {fileID: 1422948790}
   m_Layer: 0
   m_Name: Square (46)
@@ -5008,19 +4606,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1422948789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422948786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1422948790
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5057,7 +4642,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1449453742}
   - component: {fileID: 1449453743}
-  - component: {fileID: 1449453744}
   - component: {fileID: 1449453745}
   m_Layer: 0
   m_Name: Square (34)
@@ -5131,19 +4715,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1449453744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1449453741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1449453745
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5180,7 +4751,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1489224046}
   - component: {fileID: 1489224047}
-  - component: {fileID: 1489224048}
   - component: {fileID: 1489224049}
   m_Layer: 0
   m_Name: Square (13)
@@ -5254,19 +4824,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1489224048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489224045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1489224049
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5369,7 +4926,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1518185275}
   - component: {fileID: 1518185276}
-  - component: {fileID: 1518185277}
   - component: {fileID: 1518185278}
   m_Layer: 0
   m_Name: Square (29)
@@ -5443,19 +4999,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1518185277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518185274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1518185278
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5492,7 +5035,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1530483640}
   - component: {fileID: 1530483641}
-  - component: {fileID: 1530483642}
   - component: {fileID: 1530483643}
   m_Layer: 0
   m_Name: Square (32)
@@ -5566,19 +5108,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1530483642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1530483639}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1530483643
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5615,7 +5144,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1551142859}
   - component: {fileID: 1551142860}
-  - component: {fileID: 1551142861}
   - component: {fileID: 1551142862}
   m_Layer: 0
   m_Name: Square (41)
@@ -5689,19 +5217,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1551142861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1551142858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1551142862
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6009,7 +5524,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1735468358}
   - component: {fileID: 1735468359}
-  - component: {fileID: 1735468360}
   - component: {fileID: 1735468361}
   m_Layer: 0
   m_Name: Square (49)
@@ -6083,19 +5597,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1735468360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735468357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1735468361
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6132,7 +5633,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1749241394}
   - component: {fileID: 1749241395}
-  - component: {fileID: 1749241396}
   - component: {fileID: 1749241397}
   m_Layer: 0
   m_Name: Square (12)
@@ -6206,19 +5706,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1749241396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1749241393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1749241397
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6255,7 +5742,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1766064357}
   - component: {fileID: 1766064358}
-  - component: {fileID: 1766064359}
   - component: {fileID: 1766064360}
   m_Layer: 0
   m_Name: Square (4)
@@ -6329,19 +5815,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1766064359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1766064356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1766064360
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6378,7 +5851,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1785726046}
   - component: {fileID: 1785726049}
-  - component: {fileID: 1785726048}
   - component: {fileID: 1785726047}
   m_Layer: 0
   m_Name: Square (52)
@@ -6427,19 +5899,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1785726048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785726045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &1785726049
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6501,7 +5960,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1796652061}
   - component: {fileID: 1796652062}
-  - component: {fileID: 1796652063}
   - component: {fileID: 1796652064}
   m_Layer: 0
   m_Name: Square (38)
@@ -6575,19 +6033,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1796652063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1796652060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1796652064
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6624,7 +6069,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1862521848}
   - component: {fileID: 1862521851}
-  - component: {fileID: 1862521850}
   - component: {fileID: 1862521849}
   m_Layer: 0
   m_Name: Square (48)
@@ -6673,19 +6117,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1862521850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862521847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &1862521851
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6747,7 +6178,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1876235359}
   - component: {fileID: 1876235362}
-  - component: {fileID: 1876235361}
   - component: {fileID: 1876235360}
   m_Layer: 0
   m_Name: Square (58)
@@ -6796,19 +6226,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1876235361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1876235358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &1876235362
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6870,7 +6287,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1884901488}
   - component: {fileID: 1884901491}
-  - component: {fileID: 1884901490}
   - component: {fileID: 1884901489}
   m_Layer: 0
   m_Name: Square (63)
@@ -6919,19 +6335,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1884901490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1884901487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &1884901491
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6993,7 +6396,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1938744338}
   - component: {fileID: 1938744339}
-  - component: {fileID: 1938744340}
   - component: {fileID: 1938744341}
   m_Layer: 0
   m_Name: Square
@@ -7067,19 +6469,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1938744340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938744337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &1938744341
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7116,7 +6505,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2003662616}
   - component: {fileID: 2003662619}
-  - component: {fileID: 2003662618}
   - component: {fileID: 2003662617}
   m_Layer: 0
   m_Name: Square (57)
@@ -7165,19 +6553,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2003662618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2003662615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &2003662619
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7239,7 +6614,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2007005930}
   - component: {fileID: 2007005931}
-  - component: {fileID: 2007005932}
   - component: {fileID: 2007005933}
   m_Layer: 0
   m_Name: Square (54)
@@ -7313,19 +6687,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2007005932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2007005929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &2007005933
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7362,7 +6723,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2023567900}
   - component: {fileID: 2023567901}
-  - component: {fileID: 2023567902}
   - component: {fileID: 2023567903}
   m_Layer: 0
   m_Name: Square (1)
@@ -7436,19 +6796,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2023567902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2023567899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &2023567903
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7485,7 +6832,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2055112121}
   - component: {fileID: 2055112122}
-  - component: {fileID: 2055112123}
   - component: {fileID: 2055112124}
   m_Layer: 0
   m_Name: Square (3)
@@ -7559,19 +6905,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2055112123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2055112120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &2055112124
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7608,7 +6941,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2071603165}
   - component: {fileID: 2071603168}
-  - component: {fileID: 2071603167}
   - component: {fileID: 2071603166}
   m_Layer: 0
   m_Name: Square (66)
@@ -7657,19 +6989,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2071603167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071603164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &2071603168
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7731,7 +7050,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2101483521}
   - component: {fileID: 2101483524}
-  - component: {fileID: 2101483523}
   - component: {fileID: 2101483522}
   m_Layer: 0
   m_Name: Square (50)
@@ -7780,19 +7098,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2101483523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2101483520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &2101483524
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7854,7 +7159,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2101866987}
   - component: {fileID: 2101866988}
-  - component: {fileID: 2101866989}
   - component: {fileID: 2101866990}
   m_Layer: 0
   m_Name: Square (30)
@@ -7928,19 +7232,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2101866989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2101866986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!61 &2101866990
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7977,7 +7268,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2123016930}
   - component: {fileID: 2123016933}
-  - component: {fileID: 2123016932}
   - component: {fileID: 2123016931}
   m_Layer: 0
   m_Name: Square (61)
@@ -8026,19 +7316,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2123016932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2123016929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a79055f831f5ff4794be7e9dffa0f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0.9150943, g: 0.07338022, b: 0.07338022, a: 1}
 --- !u!212 &2123016933
 SpriteRenderer:
   m_ObjectHideFlags: 0

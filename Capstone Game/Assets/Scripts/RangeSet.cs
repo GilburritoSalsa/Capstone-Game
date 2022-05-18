@@ -7,7 +7,7 @@ public class RangeSet : MonoBehaviour
     // Start is called before the first frame update
     CircleCollider2D rangeSet;
 
-    private float range = 12.5f;
+    private float range = 6f;
 
     void Start()
     {

@@ -11,6 +11,7 @@ public class Node : MonoBehaviour
 
     private SpriteRenderer rend;
     private Color startColor;
+    private Vector3 pos;
 
 
     void Start()
@@ -30,8 +31,13 @@ public class Node : MonoBehaviour
         }
         //build a turret
         GameObject turretToBuild = BuildManager.instance.GetTurretToBuild();
+        pos = transform.position;
+        pos.z += -0.5f;
         turret = (GameObject)Instantiate(turretToBuild, transform.position, transform.rotation);
-    
+        rend.color = Color.clear;
+        startColor = Color.clear;
+        hoverColor = Color.clear;
+
     }
     void OnMouseEnter()
     {
@@ -40,6 +46,7 @@ public class Node : MonoBehaviour
 
     void OnMouseExit()
     {
+        
         rend.color = startColor;
     }
 }

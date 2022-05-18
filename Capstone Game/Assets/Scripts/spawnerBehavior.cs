@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class spawnerBehavior : MonoBehaviour
 {
+
+    public static spawnerBehavior instance;
+
+
     int spawnsRemaining;
     //GameObject[] enemyPool;
     public GameObject enemy;
@@ -17,6 +21,15 @@ public class spawnerBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        if (instance != null)
+        {
+            Debug.LogError("More than one SpawnerBehavior is in scene!");
+            return;
+        }
+        instance = this;
+
+
         spawnsRemaining = 0;
         spawnTimer = 0;
         spawnDelay = 3;

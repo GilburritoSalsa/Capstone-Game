@@ -25,7 +25,7 @@ public class BuildManager : MonoBehaviour
 
     void Start()
     {
-        turretToBuild = arrowTowerPrefab;
+        turretToBuild = null;
     }
 
 

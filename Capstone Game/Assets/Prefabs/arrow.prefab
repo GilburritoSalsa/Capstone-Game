@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 4966594433548007995, guid: f4c3d3654d19a0c4c8d4553806a29716, type: 3}
   targetPos: {x: 0, y: 0, z: 0}
-  speed: 5
+  speed: 200
   damage: 1
 --- !u!50 &5791082758336927974
 Rigidbody2D:

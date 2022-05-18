@@ -57,9 +57,16 @@ public class DefenseBehavior : MonoBehaviour
         }
         if (col.gameObject.tag == "Damaging")
         {
-            pScript = gameObject.GetComponent<Projectile>();
-            col.gameObject.GetComponent<Projectile>().setTarget(targetQ[0]);
-            //Debug.Log("Firing");
+            if (targetQ[0] == null)
+            {
+                targetQ.RemoveAt(0);
+            }
+            else
+            {
+                pScript = gameObject.GetComponent<Projectile>();
+                col.gameObject.GetComponent<Projectile>().setTarget(targetQ[0]);
+                //Debug.Log("Firing");
+            }
         }
     }
     public void OnTriggerExit2D(Collider2D col)

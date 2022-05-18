@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8113413912906253393}
   - component: {fileID: 1615123216803823762}
   - component: {fileID: 3208557678815350511}
+  - component: {fileID: 3487247523295331618}
   m_Layer: 0
   m_Name: arrowTower
   m_TagString: Untagged
@@ -102,7 +103,7 @@ MonoBehaviour:
   attackTimer: 1
   range: 1
   targetQ: []
-  target: {fileID: 4966594433548007995, guid: f4c3d3654d19a0c4c8d4553806a29716, type: 3}
+  target: {fileID: 0}
 --- !u!58 &3208557678815350511
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -113,9 +114,21 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 12.5
+--- !u!114 &3487247523295331618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694735785240117082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb9985929e221c54387941891c265190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

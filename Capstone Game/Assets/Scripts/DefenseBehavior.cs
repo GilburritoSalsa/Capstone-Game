@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DefenseBehavior : MonoBehaviour
 {
@@ -21,7 +22,14 @@ public class DefenseBehavior : MonoBehaviour
     public List<GameObject> targetQ;
     public GameObject target;
     bool hasTarget;
-    
+
+
+    //Color and delay variables
+    private SpriteRenderer rend;
+    private Color startColor;
+    private float timer = 0.0f;
+    private float waitTime = 3.0f;
+
 
     // Collider used to detect enemies
     CircleCollider2D rangeCol;
@@ -29,6 +37,8 @@ public class DefenseBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rend = GetComponent<SpriteRenderer>();
+        startColor = rend.color;
         pScript = projectile.GetComponent<Projectile>();
         targetQ = new List<GameObject>();
         rangeCol = GetComponent<CircleCollider2D>();
@@ -39,12 +49,20 @@ public class DefenseBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        attackTimer += Time.deltaTime;
-        if (targetQ.Count > 0 && attackTimer > attackRate)
+        if (timer < waitTime)
         {
-//            target = targetQ[0];
-            attackTimer = 0;
-            attack();
+            rend.color = Color.gray;
+            timer += Time.deltaTime;
+        }
+        else {
+            rend.color = startColor;
+            attackTimer += Time.deltaTime;
+            if (targetQ.Count > 0 && attackTimer > attackRate)
+            {
+                //            target = targetQ[0];
+                attackTimer = 0;
+                attack();
+            }
         }
     }
 

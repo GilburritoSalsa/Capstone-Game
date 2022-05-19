@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class gameManager : MonoBehaviour
 {
+    public static gameManager instance;
+
     // Boolean for map type. Important for spawning info.
     bool centralizedDefense;
 

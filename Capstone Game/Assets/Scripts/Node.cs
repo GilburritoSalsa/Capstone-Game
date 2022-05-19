@@ -11,14 +11,9 @@ public class Node : MonoBehaviour
 
     private SpriteRenderer rend;
     private Color startColor;
-<<<<<<< Updated upstream
-
-
-=======
     private Vector3 pos;
    
     private Color buildColor = Color.gray;
->>>>>>> Stashed changes
     void Start()
     {
         rend = GetComponent<SpriteRenderer>();
@@ -42,10 +37,6 @@ public class Node : MonoBehaviour
         //first add a build delay and change the color!
         //build a turret
         GameObject turretToBuild = BuildManager.instance.GetTurretToBuild();
-<<<<<<< Updated upstream
-        turret = (GameObject)Instantiate(turretToBuild, transform.position, transform.rotation);
-    
-=======
         pos = transform.position;
         pos.z += -0.5f;
 
@@ -53,7 +44,6 @@ public class Node : MonoBehaviour
         rend.color = Color.clear;
         startColor = Color.clear;
         hoverColor = Color.clear;
->>>>>>> Stashed changes
     }
 
 
@@ -64,6 +54,7 @@ public class Node : MonoBehaviour
 
     void OnMouseExit()
     {
+        
         rend.color = startColor;
     }
 }

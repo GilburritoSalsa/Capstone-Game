@@ -79,7 +79,7 @@ public class DefenseBehavior : MonoBehaviour
             {
                 targetQ.RemoveAt(0);
             }
-            else
+            else if(targetQ.Count != 0 || targetQ.Count < 0)
             {
                 pScript = gameObject.GetComponent<Projectile>();
                 col.gameObject.GetComponent<Projectile>().setTarget(targetQ[0]);

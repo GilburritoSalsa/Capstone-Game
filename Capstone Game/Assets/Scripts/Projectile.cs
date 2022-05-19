@@ -26,7 +26,7 @@ public class Projectile : MonoBehaviour
     void Update()
     {
         lifeTimer += Time.deltaTime;
-        if (lifeTimer > 4) 
+        if (lifeTimer > 2 || target == null) 
         { 
             Destroy(gameObject);
             Debug.Log("Projectile Died of old age."); 

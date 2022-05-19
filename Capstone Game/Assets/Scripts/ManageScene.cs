@@ -31,4 +31,9 @@ public class ManageScene : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void Retry()
+    {
+        SceneManager.LoadScene("Start Scene");
+    }
 }
